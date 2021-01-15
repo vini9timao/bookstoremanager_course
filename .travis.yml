@@ -1,26 +1,26 @@
-#dist: xenial
-#language: java
-#sudo: false
-#jdk: openjdk15
-#install: true
-#cache:
-#  directories:
-#    - $HOME/.m2
-{
-  "language": "java",
-  "os": [
-      "linux"
-  ],
-  "dist": "xenial",
-  "jdk": [
-      "openjdk15"
-  ],
-  "install": [
-      "true"
-  ],
-  "cache": {
-    "directories": [
-        "$HOME/.m2"
-    ]
-  }
-}
+dist: xenial
+language: java
+sudo: false
+jdk: openjdk15
+install: true
+cache:
+  directories:
+    - $HOME/.m2
+#{
+#  "language": "java",
+#  "os": [
+#      "linux"
+#  ],
+#  "dist": "xenial",
+#  "jdk": [
+#      "openjdk15"
+#  ],
+#  "install": [
+#      "true"
+#  ],
+#  "cache": {
+#    "directories": [
+#        "$HOME/.m2"
+#    ]
+#  }
+#}
